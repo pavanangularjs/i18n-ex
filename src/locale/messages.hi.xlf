@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1e9a15da9ecb3574be8b466c285ed4aca1d89e4b" datatype="html">
+        <source>
+          Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+        </source>
+        <target>
+          ANGUAR 7 में आपका स्वागत है
+        </target>
+      </trans-unit>
+      <trans-unit id="subtitle" datatype="html">
+        <source>Here are some links to help you start: </source>
+        <target>यहां कुछ लिंक दिए गए हैं जिनकी मदद से आप शुरुआत कर सकते हैं:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

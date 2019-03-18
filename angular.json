@@ -44,6 +44,20 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "te": {
+              "aot": true,
+              "outputPath": "dist/i18n-ex-te/",
+              "i18nFile": "src/locale/messages.te.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "te"
+            },
+            "hi": {
+              "aot": true,
+              "outputPath": "dist/i18n-ex-hi/",
+              "i18nFile": "src/locale/messages.hi.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "hi"
             }
           }
         },
@@ -55,6 +69,12 @@
           "configurations": {
             "production": {
               "browserTarget": "i18n-ex:build:production"
+            },
+            "te": {
+              "browserTarget": "i18n-ex:build:te"
+            },
+            "hi": {
+              "browserTarget": "i18n-ex:build:hi"
             }
           }
         },
